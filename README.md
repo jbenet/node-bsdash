@@ -2,9 +2,11 @@
 
 This is a simple dashboard for bitswap in [go-ipfs](https://github.com/ipfs/go-ipfs/). It consumes the API's `/logs` route.
 
+Based on https://github.com/whyrusleeping/bsdash
+
 ## `bsdash` in the terminal
 
-![](http://g.recordit.co/FIh8HM7omw.gif)
+![](http://g.recordit.co/l1zxnPZxK3.gif)
 
 
 Install it:
