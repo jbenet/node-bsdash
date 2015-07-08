@@ -65,28 +65,28 @@ function printDash(s) {
   var size = 0
   frame++
 
-  clivas.line("{green:*** IPFS Bitswap Dash ***}")
+  clivas.line("{magenta:*** IPFS Bitswap Dash ***}")
 
   size = objsize(s.activeGets)
-  clivas.line("{blue:Active Requests "+ size +": }")
+  clivas.line("{green:Active Requests "+ size +": }")
   for (var k in s.activeGets) {
     clivas.line("    " + k)
   }
 
   size = objsize(s.provideWorkers)
-  clivas.line("{blue:Provide Workers "+ size +": }")
+  clivas.line("{green:Provide Workers "+ size +": }")
   for (var k in s.provideWorkers) {
     clivas.line("    worker " + k +": "+ s.provideWorkers[k])
   }
 
   size = objsize(s.taskWorkers)
-  clivas.line("{blue:Task Workers "+ size +": }")
+  clivas.line("{green:Task Workers "+ size +": }")
   for (var k in s.taskWorkers) {
     clivas.line("    worker " + k +": "+ s.taskWorkers[k])
   }
 
-  clivas.line("{blue:Rebroadcast Worker: "+ s.rebroadcast +" }")
-  clivas.line("{blue:Provider Connector: "+ s.provConnector +" }")
+  clivas.line("{green:Rebroadcast Worker: "+ s.rebroadcast +" }")
+  clivas.line("{green:Provider Connector: "+ s.provConnector +" }")
 
   clivas.line("{80:}")
   clivas.line("events: " + s.events.bitswap +"/"+ s.events.total +
