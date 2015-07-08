@@ -4,6 +4,9 @@ This is a simple dashboard for bitswap in [go-ipfs](https://github.com/ipfs/go-i
 
 ## `bsdash` in the terminal
 
+![](http://g.recordit.co/FIh8HM7omw.gif)
+
+
 Install it:
 ```
 npm install -g bsdash
